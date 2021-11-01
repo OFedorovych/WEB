@@ -1,0 +1,28 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    color: #402B2B;
+    background-color: #F8F9FA;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    display: block;
+}
+
+
+

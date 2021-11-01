@@ -1,0 +1,13 @@
+@import "./normalize.min.css";
+
+@import "./globals.css";
+
+@import "./header.css";
+
+@import "./hero.css";
+
+@import "./info-part.css";
+
+@import "./clients.css";
+
+@import "./footer.css";
