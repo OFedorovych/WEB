@@ -1,0 +1,80 @@
+.hero__title{
+    font-family: DM Serif Display;
+    font-size: 100px;
+    line-height: 100%;
+    color: #fff;
+    
+    max-width: 741px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero__title{
+        font-size: 60px;
+        padding: 0 10%;
+        box-sizing: border-box;
+    }
+}
+
+.hero-button{
+    max-width: 220px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+
+    background: #EE4D47;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+
+    
+}
+
+.hero-button:hover{
+    background-color: #eb322c;
+    cursor: pointer;
+}
+
+.hero-button:hover .hero__button__arrow{
+    transform: translateX(20%);
+}
+
+.hero__button__arrow{
+    margin-left: 24px;
+    transition: all 0.3s;
+}
+
+.hero__car{
+    position: absolute;
+    left: -345px;
+    bottom: -105px;
+    z-index: 1;
+    -webkit-transition: 4s ease-out;
+
+}
+
+.hero__car:hover{
+    transform: translateX(20%);
+    transition: 4s ease-out;
+    /*animation: car 4s; */
+}
+
+/* 
+@keyframes car {
+    from { left: -345px; }
+    to { left: -100px; }
+}
+*/
+
+@media screen and (max-width: 1200px) {
+    .hero__car{
+        width: 70%;
+        height: auto;
+        left: -22%;
+    }
+}
+
+
